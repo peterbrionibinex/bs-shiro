@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Blog
+ */
+
+ get_header(); ?>
 <div id="wrapper">
 	<div id="container">
 	<div id="content">
@@ -14,5 +19,6 @@
 			</nav><!-- end #nav-below -->
 		<?php endif; ?>			
 	</div><!-- end #content -->
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
